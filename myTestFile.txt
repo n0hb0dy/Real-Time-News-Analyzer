@@ -1,1 +1,6 @@
-TESTING TESTING
+sudo apt install openjdk-8-jdk
+update-java-alternatives --list
+sudo update-java-alternatives --set /usr/lib/jvm/java-1.8.0-openjdk-amd64
+sudo apt install openssh-server openssh-client -y
+
+Test Line
