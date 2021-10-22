@@ -2,16 +2,16 @@
     "version": "1.4.0",
     "project": {
         "name": "projectzero-build",
-        "directory": "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project",
-        "workspaceDir": "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project",
+        "directory": "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project",
+        "workspaceDir": "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project",
         "sources": [
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\src\\main\\scala",
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\src\\main\\scala-2.12",
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\src\\main\\scala-2",
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\src\\main\\java",
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main",
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\Dependencies.scala"
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\src\\main\\scala",
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\src\\main\\scala-2.12",
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\src\\main\\scala-2",
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\src\\main\\java",
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\src\\main\\scala-sbt-1.0",
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main",
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\Dependencies.scala"
         ],
         "dependencies": [
             
@@ -106,11 +106,11 @@
             "C:\\Users\\98jjm\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okio\\okio\\1.17.2\\okio-1.17.2.jar",
             "C:\\Users\\98jjm\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.3.3\\config-1.3.3.jar"
         ],
-        "out": "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\.bloop\\projectzero-build",
-        "classesDir": "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\.bloop\\projectzero-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\.bloop\\projectzero-build",
+        "classesDir": "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\.bloop\\projectzero-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\src\\main\\resources",
-            "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\src\\main\\resources",
+            "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -127,7 +127,7 @@
                 "C:\\Users\\98jjm\\.sbt\\boot\\scala-2.12.14\\lib\\scala-reflect.jar",
                 "C:\\Users\\98jjm\\.sbt\\boot\\scala-2.12.14\\lib\\scala-xml_2.12-1.0.6.jar"
             ],
-            "analysis": "C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
+            "analysis": "C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -202,7 +202,7 @@
             "config": {
                 "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_202",
                 "options": [
-                    "-Duser.dir=C:\\Users\\98jjm\\OneDrive\\Documents\\Revature_Code\\ProjectZERO\\projectzero\\project"
+                    "-Duser.dir=C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectZERO\\projectzero\\project"
                 ]
             },
             "mainClass": [
