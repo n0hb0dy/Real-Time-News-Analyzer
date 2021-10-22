@@ -3,7 +3,4 @@ update-java-alternatives --list
 sudo update-java-alternatives --set /usr/lib/jvm/java-1.8.0-openjdk-amd64
 sudo apt install openssh-server openssh-client -y
 
-Test Line
-Test Line 2
-Test Line 3
-Test 4
+New Test Line
