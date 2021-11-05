@@ -40,11 +40,61 @@ object API {
 
     def storeShowDetails(stmt: Statement, id: Int, aK: String = apiKey, lang: String = "en-US"): Unit = {
         val data = getRestContent(s"https://api.themoviedb.org/3/tv/$id?api_key=$aK&language=$lang")
-        HDFS.overwriteFile("hdfs://sandbox-hdp.hortonworks.com:8020/home/maria_dev/hive/rawShowDetails.json", data)
-
-        Hive.createRawInternalTable(stmt, "rawShowDetails")
-        try{Hive.loadRawExternalTable(stmt, "rawVShowDetails", "/home/maria_dev/hive/rawShowDetails.json")} //try catch  java.sql.SQLException???
+        linuxFileSystem.newFile("/tmp/json/rawShowDetails.json", data) //this is the root/tmp of the linux system
+// val src = "file:///home/maria_dev/files2.txt"
+        Hive.createRawExternalTable(stmt, "rawShowDetails")
+        try{Hive.loadRawTable(stmt, "rawShowDetails", "/tmp/json/rawShowDetails.json")} //try catch  java.sql.SQLException???
         catch{case ex: Throwable => ex.printStackTrace()}
+    }
+
+    def discoverTVSURI( stmt: Statement, id: Int, aK: String = apiKey, lang: String = "en-US",
+                    sortBy: String = "popularity.desc", airDateGTE: String = "", airDateLTE: String ="",
+                    airDateYear: String = "", pageNum: Int = 1, timeZone: String ="America%2FNew_York",
+                    voteAverageGTE: String = "", voteCountGTE: String = "", withGenres: String = "",
+                    withRuntimeGTE: String = "", withRuntimeLTE: String = "", includeNullFirstAirDates: Boolean = false,
+                    withOriginalLanguage: String = "", withoutKeywords: String = "", screenTheatrically: String = "",
+                    withCompanies: String = "", withKeywords: String = "", withWatchProviders: String = "",
+                    watchRegion: String = "", withWatchMonetizationTypes: String = ""): String = {
+
+
+                    val newsortBy = "&sort_by=" + sortBy
+                    if (airDateGTE != "") {val newAirDateGTE = "&air_date.gte=" + airDateGTE}
+                    if (airDateLTE != "") {val newairDateLTE = "&air_date.lte=" + airDateLTE}
+                    if (airDateYear != "") {val newairDateYear = "&first_air_date_year=" + airDateYear}
+                    val newpageNum = "&page1=" + pageNum.toString()
+                    if (voteAverageGTE != "") {val newvoteAverageGTE = "&vote_average.gte=" + voteAverageGTE}
+                    if (voteCountGTE != "") {val newvoteCountGTE = "&vote_count.gte=" + voteCountGTE}
+                    if (withGenres != "") {val newwithGenres = "&with_genres=" + withGenres}
+                    if (withRuntimeGTE != "") {val newwithRuntimeGTE = "&with_runtime.gte=" + withRuntimeGTE}
+                    if (withRuntimeLTE != "") {val newwithRuntimeLTE = "&with_runtime.lte=" + withRuntimeLTE}
+                    if (withOriginalLanguage != "") {val newwithOriginalLanguage = "&with_original_language=" + withOriginalLanguage}
+                    if (withoutKeywords != "") {val newwithoutKeywords = "without_keywords=" + withoutKeywords}
+                    if (screenTheatrically != "") {val newscreenTheatrically = "&screened_theatrically=" + screenTheatrically}
+                    if (withCompanies != "") {val newwithCompanies = "&with_companies=" + withCompanies}
+                    if (withKeywords != "") {val newwithKeywords = "&with_keywords=" + withKeywords}
+                    if (withWatchProviders != "") {val newwithWatchProviders = "&with_watch_providers=" + withWatchProviders}
+                    if (watchRegion != "") {val newwatchRegion = " &watch_region=" + watchRegion}
+                    if (withWatchMonetizationTypes != "") {val newwithWatchMonetizationTypes = "&with_watch_monetization_types=" + withWatchMonetizationTypes}
+
+
+
+        // return ("""https://api.themoviedb.org/3/discover/tv?api_key=043fea9ea12d0cd4a05127315728edce&language=en-US" +
+        //         &sort_by=popularity.desc&air_date.gte=APPLE&air_date.lte=BANANA&first_air_date.gte=ORANGE
+        //         &first_air_date.lte=2021-11-03&first_air_date_year=GRAPE&page=1&timezone=America%2FNew_York
+        //         &vote_average.gte=AVACADO&vote_count.gte=CELERY&with_genres=CARROT&with_networks=BOK%20CHOY
+        //         &without_genres=TOMATO&with_runtime.gte=POTATO&with_runtime.lte=PICKLE
+        //         &include_null_first_air_dates=false&with_original_language=CUCUMBER&without_keywords=ME
+        //         &screened_theatrically=YOU&with_companies=US&with_keywords=FAMILY&with_watch_providers=SUIT
+        //         &watch_region=TIE&with_watch_monetization_types=flatrate""")
+        
+        return (s"""https://api.themoviedb.org/3/discover/tv?api_key=043fea9ea12d0cd4a05127315728edce&language=en-US" +
+                &sort_by=popularity.desc&air_date.gte=APPLE&air_date.lte=BANANA&first_air_date.gte=ORANGE
+                &first_air_date.lte=2021-11-03&first_air_date_year=GRAPE&page=1&timezone=America%2FNew_York
+                &vote_average.gte=AVACADO&vote_count.gte=CELERY&with_genres=CARROT&with_networks=BOK%20CHOY
+                &without_genres=TOMATO&with_runtime.gte=POTATO&with_runtime.lte=PICKLE
+                &include_null_first_air_dates=false&with_original_language=CUCUMBER&without_keywords=ME
+                &screened_theatrically=YOU&with_companies=US&with_keywords=FAMILY&with_watch_providers=SUIT
+                &watch_region=TIE&with_watch_monetization_types=flatrate""")
     }
 }
 
@@ -66,8 +116,8 @@ object API {
             
             
             
-            //"https://api.themoviedb.org/3/discover/tv?api_key=043fea9ea12d0cd4a05127315728edce&language=en-US&sort_by=first_air_date.desc&page=1&timezone=America%2FNew_York&include_null_first_air_dates=false&with_watch_monetization_types=flatrate" //shows coming out
-            //"https://api.themoviedb.org/3/discover/tv?api_key=043fea9ea12d0cd4a05127315728edce&language=en-US&sort_by=first_air_date.desc&first_air_date.lte=2021-11-03&page=1&timezone=America%2FNew_York&include_null_first_air_dates=false&with_watch_monetization_types=flatrate" //shows recently capped by today (NEED TO FILTER BY RATING)
+            //"https://api.themoviedb.org/3/discover/tv?api_key=043fea9ea12d0cd4a05127315728edce&language=en-US&sort_by=first_air_date.desc&page=1&timezone=America%2FNew_York&include_""_first_air_dates=false&with_watch_monetization_types=flatrate" //shows coming out
+            //"https://api.themoviedb.org/3/discover/tv?api_key=043fea9ea12d0cd4a05127315728edce&language=en-US&sort_by=first_air_date.desc&first_air_date.lte=2021-11-03&page=1&timezone=America%2FNew_York&include_""_first_air_dates=false&with_watch_monetization_types=flatrate" //shows recently capped by today (NEED TO FILTER BY RATING)
 
        
        

@@ -17,13 +17,16 @@ object p1 {
     
     def main (args: Array[String]): Unit = {
 
+        var adminAccess: Boolean = Login.startLogin()
+        
         var stmtHandler = Hive.startSession()
+        //Hive.clear(stmtHandler)
 
-        API.storeShowDetails(stmtHandler, 1396)
-        // Thread.sleep(5000)
+        // API.storeShowDetails(stmtHandler, 1396)
+        // // Thread.sleep(5000)
 
         Hive.endSession
+
+
     }
 }
-
-case class User (userName: String, passWord: String, accessLevel: String)

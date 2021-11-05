@@ -10,8 +10,6 @@ import java.sql.DriverManager
 object Hive {
 
     var con: java.sql.Connection = null;
-
-    val currQuery: Statement = startSession()
    
     def startSession (): Statement = {
 
@@ -42,6 +40,14 @@ object Hive {
             throw new Exception(s"${ex.getMessage}")
         }
     }
+
+    def clear(statement: Statement): Unit ={
+        statement.execute(
+            """
+            !clear
+            """
+        )
+    }
     
     def createRawInternalTable(statement: Statement, tableName: String): Unit = {
         println(s"Making $tableName...")
@@ -50,24 +56,24 @@ object Hive {
             CREATE TABLE IF NOT EXISTS $tableName (json string)
             """
         )
-        println(s"Loaded $tableName correctly!")
+        println(s"Created $tableName correctly!")
     }
 
-    def loadRawInternalTable(statement: Statement, tableName: String, filePath: String): Unit ={
-        println(s"Making and loading $tableName from $filePath...")
+    def createRawExternalTable(statement: Statement, tableName: String): Unit = {
+        println(s"Making $tableName...")
         statement.execute(
             s"""
-            LOAD DATA LOCAL INPATH '${filePath}' INTO TABLE $tableName
+            CREATE EXTERNAL TABLE IF NOT EXISTS $tableName (json string)
             """
         )
-        println(s"Loaded $tableName correctly!")
+        println(s"Created $tableName correctly!")
     }
 
-    def loadRawExternalTable(statement: Statement, tableName: String, filePath: String): Unit ={
+    def loadRawTable(statement: Statement, tableName: String, filePath: String): Unit ={
         println(s"Making and loading $tableName from $filePath...")
         statement.execute(
             s"""
-            LOAD DATA INPATH '$filePath' INTO TABLE $tableName
+            LOAD DATA LOCAL INPATH '$filePath' INTO TABLE $tableName
             """
         )
         println(s"Loaded $tableName correctly!")
@@ -81,23 +87,21 @@ object Hive {
         println(s"$tableName successfully created!")
     }
 
-
-    def loadExternalTableHDFS(statement: Statement, tableName: String, filePath: String): Unit = {
-        println(s"Making and loading $tableName from $filePath...")
-        statement.execute(
-            s"""
-            LOAD DATA INPATH '${filePath}' INTO TABLE $tableName
-            """
-        )
-        println(s"Loaded $tableName correctly!")
-    }
-
-
+    
 }
 
 
+// def loadExternalTable(statement: Statement, tableName: String, filePath: String): Unit = {
+//     println(s"Making and loading $tableName from $filePath...")
+//     statement.execute(
+//         s"""
+//         LOAD DATA INPATH '${filePath}' INTO TABLE $tableName
+//         """
+//     )
+//     println(s"Loaded $tableName correctly!")
+// }
 
-    // def createDataBase(statement: Statement, baseName: String): Unit = {
+// def createDataBase(statement: Statement, baseName: String): Unit = {
     //     println(s"Creating database $baseName..")
     //     statement.execute(
     //         s"CREATE DATABASE IF NOT EXISTS $baseName;"
