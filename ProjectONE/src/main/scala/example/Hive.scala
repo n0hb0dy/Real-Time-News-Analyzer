@@ -41,13 +41,13 @@ object Hive {
         }
     }
 
-    def clear(statement: Statement): Unit ={
-        statement.execute(
-            """
-            !clear
-            """
-        )
-    }
+    // def clear(statement: Statement): Unit ={ // its not in Hive :(
+    //     statement.execute(
+    //         """
+    //         !clear
+    //         """
+    //     )
+    // }
     
     def createRawInternalTable(statement: Statement, tableName: String): Unit = {
         println(s"Making $tableName...")
@@ -86,6 +86,14 @@ object Hive {
         )
         println(s"$tableName successfully created!")
     }
+
+    // def makeProperTable(statement: Statement, query: String, oldTableName: String, newTableName: String) : Unit = {
+    //     println(s"Creating table $newTableName from $oldTableName..")
+    //     statement.execute(
+    //         s"CREATE TABLE $newTableName(movieId int, title string, genre string) row format delimited fields terminated by ',';"
+    //     )
+    //     println(s"$tableName successfully created!")
+    // }
 
     
 }

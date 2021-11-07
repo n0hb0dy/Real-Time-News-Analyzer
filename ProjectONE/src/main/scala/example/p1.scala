@@ -17,16 +17,26 @@ object p1 {
     
     def main (args: Array[String]): Unit = {
 
-        var adminAccess: Boolean = Login.startLogin()
-        
-        var stmtHandler = Hive.startSession()
-        //Hive.clear(stmtHandler)
+        //var adminAccess: Boolean = Login.startLogin()
+        linuxFileSystem.clear
 
-        // API.storeShowDetails(stmtHandler, 1396)
-        // // Thread.sleep(5000)
+        var stmtHandler = Hive.startSession()
+
+        Query6.getAPIQueryData(stmtHandler, "1396")
+        Query6.printTempTable(stmtHandler)
+
+
+        Query6.storeInProperTable(stmtHandler)
+        //Query5.printFormattedRealTable(stmtHandler)
+        Query6.printBasicRealTable(stmtHandler)
 
         Hive.endSession
-
-
+        
+        
     }
 }
+
+// API.storeURLData(stmtHandler,   API.specifySortBy("popularity.desc") + 
+//                                 API.specifyAirDateGTE("2020-10-31")/*  + 
+//                                 API.generateAirDateGTE("2020-10-31") */)
+                                

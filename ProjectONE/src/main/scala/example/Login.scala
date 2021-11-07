@@ -1,4 +1,5 @@
 package example
+import java.sql.Statement
 
 object Login {
     
@@ -42,6 +43,26 @@ object Login {
 
         val usersString = linuxFileSystem.getCSVFile("/tmp/passwrd/users.csv")  //JJ,12e45,ADMIN
         val userName = scala.io.StdIn.readLine("Enter Username  >> ")
+    }
+
+    def mainMenu (stmt: Statement): Boolean = {
+
+        println("What would you want to do? >> ")
+        scala.io.StdIn.readLine("Show Recent Shows? (r) " +
+                                "Search for TV? (s)" +
+                                "Edit Users? (e)" +
+                                "More? (m)").toLowerCase match {
+            case r => {
+                Query1.getAPIQueryData(stmt)
+                if (scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") Quer1.storeInProperTable()
+                else 
+            }
+            case s => ;
+            case e => ;
+            case m => ;
+        }
+
+        return true
     }
 
     //case class User (userName: String, passWord: String, accessLevel: String)

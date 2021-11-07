@@ -3,3 +3,20 @@ C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\newp1\target\scala-2.11\
 scp -P 2222 .\newp1_2.11-v1SNAP.jar maria_dev@sandbox-hdp.hortonworks.com:/home/maria_dev/hive/jar
 spark-submit ./hive/jar/newp1_2.11-v1SNAP.jar --class example.p1
 
+create table complexjson(json string);
+load data local inpath '/home/maria_dev/tmp/hive/hivecomplex.json' into table complexjson;
+select * from complexjson;
+select get_json_object(json,'$.ecode') as ecode, get_json_object(json,'$.b') as code, get_json_object(json,'$.c') from complexjson;
+select get_json_object(json,'$.ecode') as ecode, get_json_object(json, "$.b.x") as x, get_json_object(json, "$.b.y") as y from complexjson;
+
+
+
+the five of the most recent tv shows from the database 
+the oldest tv show available
+the highest rated recent tv show available for free
+the top actor/actress from the recent tv show
+what season the most recent tv show is on
+what was the last aired episode of the most recent tv show
+
+
+Msck repair table <db_name>.<table_name> // for updating external table

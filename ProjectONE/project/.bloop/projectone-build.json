@@ -200,7 +200,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files (x86)\\Java\\jdk1.8.0_202\\jre",
+                "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_202",
                 "options": [
                     "-Duser.dir=C:\\Users\\98jjm\\OneDrive\\Documents\\OctBatch\\ProjectONE\\project"
                 ]
