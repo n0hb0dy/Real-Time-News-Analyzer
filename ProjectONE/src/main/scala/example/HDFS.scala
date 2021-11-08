@@ -72,6 +72,23 @@ object linuxFileSystem{
         writerHandler.close()
     }
 
+    def overWriteFile(filePath: String, dataString: String): Unit = {
+
+        println(s"Overwriting file at $filePath")
+
+        val isExisting = new java.io.File(filePath).isFile
+        
+        if(isExisting) {
+            //println("Yes it does exist. Deleting it...")
+            new File(filePath).delete()
+        }
+
+        val writerHandler = new PrintWriter(new File(filePath))
+        writerHandler.write(dataString)
+
+        writerHandler.close()
+    }
+
     def getCSVFile(filePath: String): Array[String] = {
 
         val src = scala.io.Source.fromFile(filePath)

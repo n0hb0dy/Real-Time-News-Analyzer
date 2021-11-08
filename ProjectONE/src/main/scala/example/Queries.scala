@@ -204,7 +204,7 @@ object Query4 {
 
     def getAPIQueryData(stmt: Statement, showID: String): Unit = {
         val newestTable = "query" + API.urlGetCount.toString()
-        API.storeURLData( stmt, newestTable, s"https://api.themoviedb.org/3/tv/$showID/credits?api_key=${API.apiKey}&language=en-US")    //searches for a tv show by id Breaking Bad
+        API.storeURLData( stmt, newestTable, s"https://api.themoviedb.org/3/tv/$showID/credits?api_key=" + API.apiKey + "&language=en-US")    //searches for a tv show by id Breaking Bad
     }
 
     def storeInProperTable(stmt: Statement, properTableName: String = defaultTableName): Unit = {
@@ -213,8 +213,8 @@ object Query4 {
         
         println(s"Creating table $properTableName from $newestTable..")
         stmt.execute(
-            "CREATE TABLE IF NOT EXISTS " + properTableName + " AS SELECT get_json_object(json,'$.name') AS name, " +
-            "CAST(get_json_object(json,'$.id') AS Int) AS id, CAST(get_json_object(json,'$.order') AS Int) AS ord" +
+            "CREATE TABLE IF NOT EXISTS " + properTableName + " AS SELECT get_json_object(json,'$.cast.name') AS name, " +
+            "CAST(get_json_object(json,'$.cast.id') AS Int) AS id, CAST(get_json_object(json,'$.cast.order') AS Int) AS ord" +
             " FROM " + newestTable
         )
         println(s"$properTableName successfully created!")
@@ -321,6 +321,65 @@ object Query6 {
     }
 
     def storeInProperTable(stmt: Statement, properTableName: String = defaultTableName): Unit = {
+        
+        val newestTable = "query" + (API.urlGetCount - 1).toString()        
+        
+        println(s"Creating table $properTableName from $newestTable..")
+        stmt.execute(
+            "CREATE TABLE IF NOT EXISTS " + properTableName + " AS SELECT get_json_object(json,'$.name') AS name, " +
+            "CAST(get_json_object(json,'$.id') AS Int) AS id, get_json_object(json,'$.first_air_date') AS first_air_date" +
+            " FROM " + newestTable
+        )
+        println(s"$properTableName successfully created!")
+    }
+
+    def printTempTable(stmt: Statement): Unit = {
+        val num = (API.urlGetCount - 1).toString()
+        val response =  stmt.executeQuery(
+                            s"SELECT * FROM query$num"
+                        )
+        if (response.next()) {
+            System.out.println(response.getString(1))
+        }
+    }
+    
+    def printBasicRealTable(stmt: Statement): Unit = {
+        val num = (API.urlGetCount - 1).toString()
+        val response =  stmt.executeQuery(
+            s"SELECT * FROM $defaultTableName"
+        )
+        while (response.next()) {
+            System.out.println(
+                response.getString(1) + "\t" + response.getString(2) + "\t" + response.getString(3)
+            )
+        }
+    }
+
+    def printFormattedRealTable(stmt: Statement): Unit = {
+        val num = (API.urlGetCount - 1).toString()
+        val response =  stmt.executeQuery(
+            s"""SELECT CONCAT(name, " (", id, ") came out in ", first_air_date) FROM $defaultTableName"""
+        )
+        while (response.next()) {
+            System.out.println(
+                response.getString(1)
+            )
+        }
+    }
+}
+
+
+object showLookup{
+    val defaultTableName = "tvshows_search"
+
+    def getAPIQueryData(stmt: Statement, searchParam: String): Unit = {
+        val newestTable = "query" + API.urlGetCount.toString()
+        val temp = searchParam.replaceAll(" ", "%20")
+        API.storeURLData( stmt, newestTable,    s"https://api.themoviedb.org/3/search/tv?api_key=${API.apiKey}" +
+                                                s"&language=en-US&page=1&query=$temp&include_adult=true")    //oldest movies (first 4 are mistaken entries)
+    }
+
+        def storeInProperTable(stmt: Statement, properTableName: String = defaultTableName): Unit = {
         
         val newestTable = "query" + (API.urlGetCount - 1).toString()        
         

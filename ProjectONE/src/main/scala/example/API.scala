@@ -12,7 +12,7 @@ import java.sql.Statement
 object API {
 
     implicit val apiKey: String = "043fea9ea12d0cd4a05127315728edce"
-    implicit var urlGetCount: Int = 10
+    implicit var urlGetCount: Int = 1
 
     def getRestContent(url: String): String = {
 
@@ -48,14 +48,15 @@ object API {
 
     def storeURLData(stmt: Statement, tableName: String, urlBuilder: String): Unit = {
         println(s"Storing API data from $urlBuilder into $tableName ...")
-        val siteData = getRestContent(urlBuilder)
-        linuxFileSystem.newFile(s"/tmp/json/rawTemp$urlGetCount.json",  siteData.substring(
-                                                                        siteData.indexOf("[") + 1,
-                                                                        siteData.lastIndexOf("],")).
-                                                                        replaceAll("},", "}\n")     //skims the metadata and seperates documents by newlines
+        val siteData = getRestContent(urlBuilder).replaceAll("},", "}\n")
+        println(siteata)
+        linuxFileSystem.newFile(s"/tmp/json/rawTemp$urlGetCount.json",  siteData
+                                                                          //skims the metadata and seperates documents by newlines
         )
+        //linuxFileSystem.newFile(s"/tmp/json/rawTemp$urlGetCount.json",  siteData)
+
         
-        Hive.createRawExternalTable(stmt, s"query$urlGetCount")
+        Hive.createRawInternalTable(stmt, s"query$urlGetCount")
         try{Hive.loadRawTable(stmt, tableName, s"/tmp/json/rawTemp$urlGetCount.json")} 
         catch{case ex: Throwable => ex.printStackTrace()}
         urlGetCount += 1
@@ -289,3 +290,152 @@ object API {
         // &include_null_first_air_dates=false&with_original_language=CUCUMBER&without_keywords=ME
         // &screened_theatrically=YOU&with_companies=US&with_keywords=FAMILY&with_watch_providers=SUIT
         // &watch_region=TIE&with_watch_monetization_types=flatrate""")}
+
+        // implicit val formats = net.liftweb.json.DefaultFormats
+// val popularShows = """{"a": 1,"b": "peter, griffin","c": "hello"}
+//                       {"a": 2,"b": "peter, cliff","c": "hello"}"""
+
+// //val presentablePopTvShows = popularShows.replaceAll("\\s+", " ").replace("[", "").replace("]", "")
+// //val popDocuments = presentablePopTvShows.replace("},", "}\n").split("\n")
+
+// //print(presentablePopTvShows)
+// //print(popDocuments)
+
+// val all_docs = net.liftweb.json.parse(popularShows)
+// // print(net.liftweb.json.parse(popularShows).find(_==net.liftweb.json.parse("a")))
+// //println(JsonAST.render(all_docs))
+// //println(JsonAST.render(all_docs.extract[String]))
+// val map = net.liftweb.json.Extraction.flatten(net.liftweb.json.parse(popularShows))
+// println(map.get(".b").get)
+// println(map.keySet)
+
+    // val presentablePopTvShows = popularShows.replaceAll("\\s+", " ").replace("[", "").replace("]", "")
+    // val popDocuments = presentablePopTvShows.replace("},", "}\n").split("\n")
+
+    // val all_docs = net.liftweb.json.parse(popularShows)
+    // print(net.liftweb.json.parse(popularShows).find(_==net.liftweb.json.parse("Community")))
+    // println(JsonAST.render(all_docs))
+    
+    // println(JsonAST.render(all_docs.filterField(x => x== new JsonAST.JField("year", JsonAST.JInt(1989))))) // Checking if field exists
+    
+    // //println(JsonAST.render(all_docs.extract[String]))
+
+    // val all_docs_flat = net.liftweb.json.Extraction.flatten(all_docs) // outputs ([0].ids.tvdb, 121361) and others...
+    // val all_docs_map_grouped = all_docs_flat.filter((kv) => kv._1.startsWith("[0]"))// .groupBy(x => x.startsWith("([0]")) //.values //.keySet //toSeq.sortBy(_._1) //filter((k) => k._1.startsWith("[0]")) //groupBy((k) => k._1.startsWith("[0]"))
+    //             //.keySet.map(k => k.charAt(1).toString().toInt).max[Int]
+    // val justSchemaNValue = all_docs_map_grouped.map((kv) => (kv._1.replace("[0].", ""), kv._2)) //.map(x => x._1.replace("[0].", ""))
+    // val popTVInstance = new popularTvShows(
+    //                             justSchemaNValue.apply("title"),
+    //                             justSchemaNValue.apply("year").toInt,
+    //                             justSchemaNValue.apply("ids.slug"),
+    //                             justSchemaNValue.apply("ids.tvdb").toInt,
+    //                             justSchemaNValue.apply("ids.imdb"),
+    //                             justSchemaNValue.apply("ids.tmdb").toInt    
+    // )
+
+    // all_docs_map_grouped.foreach(println)
+    // print(all_docs_map_grouped)
+    //  justSchemaNValue.foreach(println)
+    // println()
+    // //popTVInstance.println
+    // print(popTVInstance.toCVSString())
+
+    
+    
+    
+    
+    
+    
+    
+    // // val json = List(1, 2, 3)
+    // // println((JsonAST.render(json)))
+
+    // // val map = Map("fname" -> "Alvin", "lname" -> "Alexander")
+    // // println((JsonAST.render(map)))
+
+    // // net.liftweb.json.parse(popularShows).extractOrElse()
+
+
+
+
+
+ 
+
+
+
+
+
+// //val test: Json = """"title": "Community", "year": 2009, "ids": 1""".asJson
+//     //popularShowsJSON.mapString(_.trim())
+//     //print(test.as[popTVShow])
+    
+//     //print(popularShows.split("},").foreach(println))
+    
+//     val presentablePopTvShows = popularShows.replaceAll("\\s+", " ").replace("[", "").replace("]", "")
+//     val popDocuments = presentablePopTvShows.replace("},", "}\n").split("\n")
+
+
+//     //println(presentablePopTvShows)
+//     //println()
+//     //popDocuments.foreach(println)
+//     println()
+//     val popJson = popDocuments.map(doc => parse(doc).getOrElse(Json.Null))
+
+//     val iterKeys = popJson.head.hcursor.keys
+
+//     for(key <- iterKeys){
+//       for(iter<- key){
+//         print(iter)
+//       }
+//     }
+
+//     popJson.foreach(println)
+
+
+
+//     val year = popJson.head.hcursor.get[Int]("year")
+//     println(year.getOrElse(print("DID NOT PARSE IT CORRECTLY")))
+
+
+
+//     // getting everyvalue and parsing it into csv format
+
+//     //val popKeys = popJson.toMap(x => x.hcursor.get(Int))
+    
+    
+
+//     //val popValues = popJson.map(_.hcursor.get[Any](new Any))
+
+
+// implicit val popTVShowEncoder: Encoder[popTVShow] = popTVShow => Json.obj(
+//       "title" -> popTVShow.title.asJson,
+//       "year" -> popTVShow.year.asJson,
+//       "ids" -> popTVShow.ids.asJson
+//     ) // This is for turning instances of his class to JSON objects
+
+//     implicit val popTVShowDecoder: Decoder[popTVShow] = 
+//       Decoder.forProduct3("title","year","ids")(popTVShow.apply)
+
+
+
+
+
+
+
+
+//     //popJson.head.hcursor.downField("year").withFocus(println)
+//     //val popMap = popJson.map(_.as[Map[String, String]])
+//     println()
+
+//     //optics ............................................
+
+//     // val _title = root.title.string
+
+//     // println(_title.getOption)
+
+
+
+
+
+
+//   Thread.sleep(3000) // Program does not print the whole list other wise
