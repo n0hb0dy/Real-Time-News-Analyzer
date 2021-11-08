@@ -49,7 +49,7 @@ object API {
     def storeURLData(stmt: Statement, tableName: String, urlBuilder: String): Unit = {
         println(s"Storing API data from $urlBuilder into $tableName ...")
         val siteData = getRestContent(urlBuilder).replaceAll("},", "}\n")
-        println(siteata)
+        println(siteData)
         linuxFileSystem.newFile(s"/tmp/json/rawTemp$urlGetCount.json",  siteData
                                                                           //skims the metadata and seperates documents by newlines
         )

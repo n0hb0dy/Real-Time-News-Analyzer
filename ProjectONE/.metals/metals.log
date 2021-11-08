@@ -42478,3 +42478,1353 @@ WARNING: Unmatched cancel notification for request id 1600
 [0m2021.11.07 23:32:27 INFO  time: compiled root in 1.41s[0m
 [0m2021.11.07 23:33:17 WARN  unsupported Scala 2.11.0[0m
 [0m2021.11.07 23:33:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:45 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:34:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:34:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:09 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:35:10 INFO  time: compiled root in 1.35s[0m
+[0m2021.11.07 23:35:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:12 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:35:14 INFO  time: compiled root in 1.4s[0m
+[0m2021.11.07 23:35:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:16 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:35:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:17 INFO  time: compiled root in 1.5s[0m
+Nov 07, 2021 11:35:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1902
+Nov 07, 2021 11:35:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1908
+[0m2021.11.07 23:35:51 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:35:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1915
+[0m2021.11.07 23:35:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:35:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:41 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:36:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:43 INFO  time: compiled root in 1.36s[0m
+[0m2021.11.07 23:36:47 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:36:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1986
+Nov 07, 2021 11:36:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1992
+[0m2021.11.07 23:36:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:58 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:36:59 INFO  time: compiled root in 1.42s[0m
+[0m2021.11.07 23:36:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:36:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:26 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:37:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2014
+[0m2021.11.07 23:37:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:37:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:02 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:38:28 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:38:29 INFO  time: compiled root in 1.41s[0m
+[0m2021.11.07 23:38:30 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:40:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2098
+Nov 07, 2021 11:40:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2104
+[0m2021.11.07 23:40:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:40:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:40:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:40:26 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:40:28 INFO  time: compiled root in 1.42s[0m
+Nov 07, 2021 11:44:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2124
+[0m2021.11.07 23:44:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:34 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:44:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2142
+[0m2021.11.07 23:44:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:44:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:10 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:45:12 INFO  time: compiled root in 1.41s[0m
+[0m2021.11.07 23:45:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:18 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:45:17 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:45:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:45:19 INFO  time: compiled root in 1.54s[0m
+[0m2021.11.07 23:46:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:17 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:46:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:17 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:46:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:17 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:46:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:22 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:46:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:24 INFO  time: compiled root in 1.48s[0m
+[0m2021.11.07 23:46:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:40 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:46:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:46:40 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:46:42 INFO  time: compiled root in 1.43s[0m
+Nov 07, 2021 11:50:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2206
+[0m2021.11.07 23:50:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:49 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:50:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2220
+[0m2021.11.07 23:50:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:52 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:50:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2228
+[0m2021.11.07 23:50:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:50:57 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:50:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:00 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:51:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:00 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:51:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:02 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:12 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:51:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:12 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:51:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:14 INFO  time: compiled root in 1.39s[0m
+[0m2021.11.07 23:51:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:51:20 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:51:21 INFO  time: compiled root in 1.37s[0m
+[0m2021.11.07 23:51:36 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2307
+[0m2021.11.07 23:55:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:55:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:55:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:56:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:56:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:56:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:57:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:57:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:57:51 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:57:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:57:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:57:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:57:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:57:58 INFO  compiling root (7 scala sources)[0m
+Nov 07, 2021 11:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2345
+[0m2021.11.07 23:57:59 INFO  time: compiled root in 1.41s[0m
+[0m2021.11.07 23:57:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:01 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:58:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:02 INFO  time: compiled root in 1.33s[0m
+[0m2021.11.07 23:58:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:23 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:58:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2362
+[0m2021.11.07 23:58:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:38 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:58:40 INFO  time: compiled root in 1.4s[0m
+[0m2021.11.07 23:58:40 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:58:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2381
+[0m2021.11.07 23:58:42 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.07 23:58:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:43 INFO  time: compiled root in 1.36s[0m
+[0m2021.11.07 23:58:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:53 WARN  unsupported Scala 2.11.0[0m
+Nov 07, 2021 11:58:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2394
+[0m2021.11.07 23:58:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:58:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:42 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:59:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:42 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:59:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:42 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:59:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:46 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.07 23:59:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.07 23:59:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:22 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:00:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:24 INFO  time: compiled root in 1.37s[0m
+[0m2021.11.08 00:00:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:26 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:00:27 INFO  time: compiled root in 1.34s[0m
+[0m2021.11.08 00:00:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:34 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:00:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:34 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:00:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:44 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:00:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:00:55 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:00:57 INFO  time: compiled root in 1.38s[0m
+[0m2021.11.08 00:00:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:01:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:01:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:31 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:02:33 INFO  time: compiled root in 1.38s[0m
+Nov 08, 2021 12:02:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2640
+[0m2021.11.08 00:02:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:46 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:02:47 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:02:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:47 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\API.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:02:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:48 INFO  time: compiled root in 1.48s[0m
+[0m2021.11.08 00:02:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:02:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:03:14 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:03:16 INFO  time: compiled root in 1.4s[0m
+[0m2021.11.08 00:03:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:03:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:03:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:03:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:03:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:04:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:04:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:04:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:04:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:04:36 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:04:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2680
+[0m2021.11.08 00:11:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:11:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:11:23 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:11:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2693
+[0m2021.11.08 00:11:27 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:11:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2700
+[0m2021.11.08 00:11:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:11:31 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:12:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2707
+[0m2021.11.08 00:12:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:12:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:12:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:12:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:12:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:12:12 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Queries.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:12:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:12:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:12:12 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:14:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2725
+[0m2021.11.08 00:14:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:18 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:14:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2732
+[0m2021.11.08 00:14:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:14:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:16:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:16:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:16:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:16:10 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:16:12 INFO  time: compiled root in 1.45s[0m
+Nov 08, 2021 12:16:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2782
+[0m2021.11.08 00:16:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:16:21 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:16:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:16:22 INFO  time: compiled root in 1.44s[0m
+[0m2021.11.08 00:16:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:16:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:46 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:17:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:48 INFO  time: compiled root in 1.38s[0m
+[0m2021.11.08 00:17:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:17:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:18 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:18:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:18:19 INFO  time: compiled root in 1.38s[0m
+[0m2021.11.08 00:19:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:35 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:19:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2912
+[0m2021.11.08 00:19:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:19:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:20:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:20:47 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:20:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2941
+[0m2021.11.08 00:20:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:20:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:20:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:20:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:20:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:20:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:20:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:21:00 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:21:01 INFO  time: compiled root in 1.36s[0m
+[0m2021.11.08 00:21:02 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:21:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:21:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:21:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:40 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:22:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2975
+Nov 08, 2021 12:22:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2981
+Nov 08, 2021 12:22:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2987
+[0m2021.11.08 00:22:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:57 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:22:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:58 INFO  time: compiled root in 1.4s[0m
+[0m2021.11.08 00:22:59 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:22:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:22:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:05 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:23:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:23:18 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:23:19 INFO  time: compiled root in 1.43s[0m
+[0m2021.11.08 00:31:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:31:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:51 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:32:53 INFO  time: compiled root in 1.61s[0m
+[0m2021.11.08 00:32:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:32:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:07 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:33:08 INFO  time: compiled root in 1.43s[0m
+[0m2021.11.08 00:33:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:33:17 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:33:18 INFO  time: compiled root in 1.49s[0m
+[0m2021.11.08 00:35:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:35:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:36:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:36:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:36:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:36:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:36:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:36:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:36:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:37:17 WARN  no build target for: C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectZERO\projectzero\src\main\scala\example\ProjectZero.scala[0m
+Nov 08, 2021 12:37:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3309
+[0m2021.11.08 00:37:22 WARN  no build target for: C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectZERO\projectzero\src\main\scala\example\Helpers.scala[0m
+Nov 08, 2021 12:37:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3320
+[0m2021.11.08 00:37:24 WARN  no build target for: C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectZERO\projectzero\src\main\scala\example\Definitions.scala[0m
+[0m2021.11.08 00:37:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:30 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:38:32 INFO  time: compiled root in 1.37s[0m
+[0m2021.11.08 00:38:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:38:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:02 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:02 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:08 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:39:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:10 INFO  time: compiled root in 1.32s[0m
+[0m2021.11.08 00:39:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:16 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:39:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:16 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:39:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:18 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:39:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:18 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:39:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:20 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:39:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:21 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:39:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:22 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:39:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:23 INFO  time: compiled root in 1.37s[0m
+[0m2021.11.08 00:39:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:28 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:30 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:39:32 INFO  time: compiled root in 1.41s[0m
+[0m2021.11.08 00:39:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:39:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:15 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:40:16 INFO  time: compiled root in 1.43s[0m
+[0m2021.11.08 00:40:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:18 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:40:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:20 INFO  time: compiled root in 1.48s[0m
+[0m2021.11.08 00:40:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:48 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:40:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:48 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:40:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:50 INFO  time: compiled root in 1.51s[0m
+[0m2021.11.08 00:40:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:40:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:33 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:41:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:36 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:41:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:36 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:41:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:48 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:41:48 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:41:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:41:49 INFO  time: compiled root in 1.42s[0m
+[0m2021.11.08 00:41:51 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:41:53 INFO  time: compiled root in 1.56s[0m
+[0m2021.11.08 00:41:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:07 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:42:09 INFO  time: compiled root in 1.44s[0m
+[0m2021.11.08 00:42:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:42:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:45 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:45:47 INFO  time: compiled root in 1.36s[0m
+[0m2021.11.08 00:45:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:45:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:13 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:46:14 INFO  time: compiled root in 1.36s[0m
+[0m2021.11.08 00:46:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:22 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:46:22 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 08, 2021 12:46:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:158)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:960)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:808)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.11.08 00:46:29 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:46:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:29 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:46:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:29 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:46:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:29 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:46:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:46:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:47:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:47:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:47:05 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:47:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:47:07 INFO  time: compiled root in 1.43s[0m
+[0m2021.11.08 00:47:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:47:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:47:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:47:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:47:54 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:47:56 INFO  time: compiled root in 1.38s[0m
+[0m2021.11.08 00:48:00 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:48:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:48:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:48:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:48:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:48:33 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:48:33 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.11.08 00:48:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:41 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:52 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:49:55 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:49:56 INFO  time: compiled root in 1.48s[0m
+[0m2021.11.08 00:50:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:50:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:50:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:51:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:52:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:52:13 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:52:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:52:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:52:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:52:39 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:52:41 INFO  time: compiled root in 1.32s[0m
+[0m2021.11.08 00:53:22 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:26 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:53:28 INFO  time: compiled root in 1.55s[0m
+[0m2021.11.08 00:53:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:37 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:53:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:13 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:54:15 INFO  time: compiled root in 1.39s[0m
+[0m2021.11.08 00:54:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:19 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:31 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:54:32 INFO  time: compiled root in 1.37s[0m
+[0m2021.11.08 00:54:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:49 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:54:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:54:49 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:54:51 INFO  time: compiled root in 1.63s[0m
+[0m2021.11.08 00:55:03 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:06 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:13 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:55:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:15 INFO  time: compiled root in 1.44s[0m
+[0m2021.11.08 00:55:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:55:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:31 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:58:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4424
+[0m2021.11.08 00:58:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:35 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 12:58:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4434
+[0m2021.11.08 00:58:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:44 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:58:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:44 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:58:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:44 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:58:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:44 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:44 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:58:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:45 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 00:58:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 00:58:53 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 00:58:54 INFO  time: compiled root in 1.69s[0m
+[0m2021.11.08 01:01:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:01:45 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 01:01:47 INFO  time: compiled root in 1.97s[0m
+[0m2021.11.08 01:01:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:01:56 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:02:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:02:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:02:58 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 1:02:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4478
+[0m2021.11.08 01:03:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:03 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 1:03:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4488
+[0m2021.11.08 01:03:08 WARN  unsupported Scala 2.11.0[0m
+Nov 08, 2021 1:03:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4494
+Nov 08, 2021 1:03:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4495
+[0m2021.11.08 01:03:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:29 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:03:35 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 01:03:37 INFO  time: compiled root in 1.47s[0m
+[0m2021.11.08 01:03:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:05 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:16 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:04:17 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 01:04:19 INFO  time: compiled root in 1.39s[0m
+[0m2021.11.08 01:05:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:45 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:05:59 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:31 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:39 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:42 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:06:46 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:07:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:08:49 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:08:50 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:08:51 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:08:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:08:56 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 01:08:57 INFO  time: compiled root in 1.34s[0m
+[0m2021.11.08 01:09:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:09:53 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:09:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:01 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:04 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:08 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:10 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:20 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:10:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:11:54 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:11:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:11:55 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:11:57 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:11:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:11:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:07 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:09 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:12 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:19 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 01:12:21 INFO  time: compiled root in 1.38s[0m
+[0m2021.11.08 01:12:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:21 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:23 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 01:12:24 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:24 INFO  time: compiled root in 1.28s[0m
+[0m2021.11.08 01:12:26 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:30 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 01:12:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:30 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:35 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:35 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 01:12:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:36 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 01:12:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:36 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 01:12:36 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:40 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:43 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 01:12:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:43 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 01:12:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:43 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:46 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 01:12:47 INFO  time: compiled root in 1.32s[0m
+[0m2021.11.08 01:12:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:47 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:48 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:12:58 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:11 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:14 ERROR code navigation does not work for the file 'C:\Users\98jjm\OneDrive\Documents\OctBatch\ProjectONE\src\main\scala\example\Login.scala' because the Scala version 2.11.0 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.7 or 3.1.0.[0m
+[0m2021.11.08 01:14:14 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:15 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:17 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:18 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:23 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:25 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:27 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:33 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:34 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:38 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:14:44 INFO  compiling root (7 scala sources)[0m
+[0m2021.11.08 01:14:46 INFO  time: compiled root in 1.68s[0m
+[0m2021.11.08 01:32:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:32:32 WARN  unsupported Scala 2.11.0[0m
+[0m2021.11.08 01:32:34 INFO  shutting down Metals[0m
+[0m2021.11.08 01:32:34 INFO  Shut down connection with build server.[0m
+[0m2021.11.08 01:32:34 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...

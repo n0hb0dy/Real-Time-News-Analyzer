@@ -29,6 +29,7 @@ object Login {
         do {
             var tryCount = 0
             passWord = scala.io.StdIn.readLine(s"Enter the password for $userName  >> ")
+            passWord = encryptString3Rail(passWord)
             if (currentUserInfo.contains(passWord.toCharArray())) loginSuccess = true else println("Wrong Password . . . ") 
             
             tryCount+=1
@@ -40,12 +41,13 @@ object Login {
     }
 
     def changeAccessLevel(user: String): Unit ={
-        val tempPassword = scala.io.StdIn.readLine("Enter new password >> ")
+        var tempPassword = scala.io.StdIn.readLine("Enter new password >> ")
         var al = "BASIC"
         if (tempPassword != scala.io.StdIn.readLine("Enter new password again >> ")) {println("Wrong Password"); changeAccessLevel(user)}
 
         if (scala.io.StdIn.readLine("Do you want this user to be admin too? (y/n) >> ").toLowerCase == "y") al = "ADMIN"
-
+        
+        tempPassword = encryptString3Rail(tempPassword)
         val usersString = linuxFileSystem.getCSVFile("/tmp/passwrd/users.csv")
         val newUsersString = (usersString.map(u => if (u.contains(user)) s"$user,$tempPassword,$al" else u)).mkString("\n")
 
@@ -53,12 +55,13 @@ object Login {
     }
 
     def addUser(user: String): Unit ={
-        val tempPassword = scala.io.StdIn.readLine("Enter new password >> ")
+        var tempPassword = scala.io.StdIn.readLine("Enter new password >> ")
         var al = "BASIC"
         if (tempPassword != scala.io.StdIn.readLine("Enter new password again >> ")) {println("Wrong Password"); changeAccessLevel(user)}
 
         if (scala.io.StdIn.readLine("Do you want this user to be admin too? (y/n) >> ").toLowerCase == "y") al = "ADMIN"
 
+        tempPassword = encryptString3Rail(tempPassword)
         val usersString = linuxFileSystem.getCSVFile("/tmp/passwrd/users.csv")
         val newUsersString = (usersString :+ s"$user,$tempPassword,$al" ).mkString("\n")
 
@@ -68,14 +71,22 @@ object Login {
     def removeUser(user: String): Unit ={
 
         val usersString = linuxFileSystem.getCSVFile("/tmp/passwrd/users.csv")
-        val newUsersString = (usersString.filterNot(u => u.contains(user))).mkString("\n")
+        val newUsersString = (usersString.filterNot(u => u.startsWith(user))).mkString("\n")
 
         linuxFileSystem.overWriteFile("/tmp/passwrd/users.csv", newUsersString)
+    }
+
+    def showUnencrypted(){
+        val usersString = linuxFileSystem.getCSVFile("/tmp/passwrd/users.csv")
+        val passwords = usersString.map(u => unencryptString3Rail(u.split(",")(1))).tail
+
+        passwords.foreach(println)
     }
 
     def usersPage (stmt: Statement, al: Boolean): Unit = {
 
         val usersString = linuxFileSystem.getCSVFile("/tmp/passwrd/users.csv")  //JJ,12e45,ADMIN
+        //usersString.foreach(println)
         escape = false
         while(escape == false) {
             println("What would you like to do?")
@@ -83,13 +94,14 @@ object Login {
                                     "Change user info?(i) " +
                                     "Add new user?(a) " +
                                     "Remove User?(r) " +
+                                    "Show unencrypted passwords?(u) " +
                                     "Quit?(q) ").toLowerCase match {
                 case "c" => {mainMenu(stmt, startLogin())}
-                case "l" => {
+                case "i" => {
                     if (al == false) println("This user does not have access to these functions . . . ")
                     else {
                         val user = scala.io.StdIn.readLine("Enter Username  >> ")
-                        if (!(usersString.contains(user))) println("Cannot find a user by that username . . . ")
+                        if (!(usersString.exists(x => x.contains(user)))) println("Cannot find a user by that username . . . ")
                         else changeAccessLevel(user)
                     }
                 }
@@ -97,7 +109,7 @@ object Login {
                     if (al == false) println("This user does not have access to these functions . . . ")
                     else {
                         val user = scala.io.StdIn.readLine("Enter Username  >> ")
-                        if ((usersString.contains(user))) println("User already exists  . . . ")
+                        if ((usersString.exists(x => x.contains(user)))) println("User already exists  . . . ")
                         else addUser(user)
                     }
                 }                        
@@ -105,10 +117,11 @@ object Login {
                     if (al == false) println("This user does not have access to these functions . . . ")
                     else {
                         val user = scala.io.StdIn.readLine("Enter Username  >> ")
-                        if (!(usersString.contains(user))) println("Cannot find a user by that username . . . ")
+                        if (!(usersString.exists(x => x.contains(user)))) println("Cannot find a user by that username . . . ")
                         else removeUser(user)
                     }    
                 }
+                case "u" => showUnencrypted()
                 case "q" => escape = true 
                 case _ => println("Invalid entry . . . ")                 
                 }
@@ -129,23 +142,23 @@ object Login {
                                     "Quit?(q) ").toLowerCase match {
                 case "r" => {
                     Query1.getAPIQueryData(stmt)
-                    if (scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") { Query1.storeInProperTable(stmt); Query1.printFormattedRealTable(stmt) }
+                    if ((scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") && al) { Query1.storeInProperTable(stmt); Query1.printFormattedRealTable(stmt); scala.io.StdIn.readLine; linuxFileSystem.clear }
                     else Query1.printTempTable(stmt)
                 }
                 case "o" => { 
                     Query2.getAPIQueryData(stmt)
-                    if (scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") { Query2.storeInProperTable(stmt); Query2.printFormattedRealTable(stmt) }
+                    if ((scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") && al) { Query2.storeInProperTable(stmt); Query2.printFormattedRealTable(stmt); scala.io.StdIn.readLine; linuxFileSystem.clear }
                     else Query2.printTempTable(stmt)
                 }
                 case "g" => { 
                     Query3.getAPIQueryData(stmt)
-                    if (scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") { Query3.storeInProperTable(stmt); Query3.printFormattedRealTable(stmt) }
+                    if ((scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") && al) { Query3.storeInProperTable(stmt); Query3.printFormattedRealTable(stmt); scala.io.StdIn.readLine; linuxFileSystem.clear }
                     else Query3.printTempTable(stmt)
                 }
                 case "l" => { 
 
                     showLookup.getAPIQueryData(stmt, scala.io.StdIn.readLine("What show would you like to look up? >> "))
-                    if (scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") { showLookup.storeInProperTable(stmt); showLookup.printFormattedRealTable(stmt) }
+                    if ((scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") && al) { showLookup.storeInProperTable(stmt); showLookup.printFormattedRealTable(stmt); scala.io.StdIn.readLine; linuxFileSystem.clear }
                     else showLookup.printTempTable(stmt)
                 }
                 case "m" => mainMenuCont(stmt, al)
@@ -169,17 +182,17 @@ object Login {
                                     "Quit?(q) ").toLowerCase match {
                 case "c" => {
                     Query4.getAPIQueryData(stmt, scala.io.StdIn.readLine("What is the show ID? >> "))
-                    if (scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") { Query4.storeInProperTable(stmt); Query4.printFormattedRealTable(stmt) }
+                    if ((scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") && al) { Query4.storeInProperTable(stmt); Query4.printFormattedRealTable(stmt); scala.io.StdIn.readLine; linuxFileSystem.clear }
                     else Query4.printTempTable(stmt)
                 }
                 case "s" => { 
                     Query5.getAPIQueryData(stmt, scala.io.StdIn.readLine("What is the show ID? >> "))
-                    if (scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") { Query5.storeInProperTable(stmt); Query5.printFormattedRealTable(stmt) }
+                    if ((scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") && al) { Query5.storeInProperTable(stmt); Query5.printFormattedRealTable(stmt); scala.io.StdIn.readLine; linuxFileSystem.clear }
                     else Query5.printTempTable(stmt)
                 }
                 case "e" => { 
                     Query6.getAPIQueryData(stmt)
-                    if (scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") { Query6.storeInProperTable(stmt); Query6.printFormattedRealTable(stmt) }
+                    if ((scala.io.StdIn.readLine("Would you like to store the data in a table (y/n)?").toLowerCase == "y") && al) { Query6.storeInProperTable(stmt); Query6.printFormattedRealTable(stmt); scala.io.StdIn.readLine; linuxFileSystem.clear }
                     else Query6.printTempTable(stmt)
                 }
                 case "u" => { 
@@ -193,6 +206,40 @@ object Login {
         return true
     }
 
-    //case class User (userName: String, passWord: String, accessLevel: String)
+    def encryptString3Rail(s: String): String = {
+            var (t, i) = (1, 0)
+            var (str1, str2, str3) = ("","","")
+
+            while (t<=3) {
+                t match {
+                    case 1  =>  while(i<s.length()) {str1 = str1.concat(s.charAt(i).toString()); i+=4}
+                    case 2  =>  i = 1; while(i<s.length()) {str2 = str2 + s.charAt(i).toString(); i+=2}
+                    case 3  =>  i = 2; while(i<s.length()) {str3 = str3 + s.charAt(i).toString(); i+=4}
+                    case _ => "Invalid rail"
+                }
+
+                t+=1
+            }
+
+            return str1 + str2 + str3
+        }
+
+    def unencryptString3Rail(s: String): String = { 
+        var (t, i, c) = (1, 0, 0)
+        var decryptedString= Array.fill(s.length){'-'}
+
+        while (t<=3) {
+            t match {
+                case 1  =>  while(i<s.length()){decryptedString(i) = s.charAt(c); i+=4; c+=1}
+                case 2  =>  i = 1; while(i<s.length()) {decryptedString(i) = s.charAt(c); i+=2; c+=1}
+                case 3  =>  i = 2; while(i<s.length()) {decryptedString(i) = s.charAt(c); i+=4; c+=1}
+                case _ => "Invalid rail"
+            }
+
+            t+=1
+        }
+
+        return decryptedString.mkString
+    }
 
 }
