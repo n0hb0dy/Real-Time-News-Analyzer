@@ -24,13 +24,12 @@ To-do list:
 ## Getting Started
    
 git clone https://github.com/n0hb0dy/Realt-Time-News-Analyzer.git
-(include all environment setup steps)
+Tested for HortonWorks 2.6.5 VM with user maria_dev 
 
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- All the `code` required to get started
-- Images of what it should look like
+> scp -P 2222 .\newp1_2.11-v1SNAP.jar maria_dev@sandbox-hdp.hortonworks.com:/home/maria_dev/hive/jar
+> > To copy to Linux VM
+> spark-submit ./hive/jar/newp1_2.11-v1SNAP.jar --class example.p1
+> > To run the program
 
 ## Usage
 
