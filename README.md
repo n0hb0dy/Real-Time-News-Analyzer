@@ -34,9 +34,15 @@ Tested for HortonWorks 2.6.5 VM with user maria_dev
 ## Usage
 
 > Login with username and password
+
 > Type a single character when prompted to select an option or to change menus
+
 > Look up TV shows with key words to get their ID's
+
 > View recently released shows
+
 > View the latest seasons, episodes, and cast of a TV show
+
 > Store the searches into a Hive Table
+
 > Change usernames, passwords, and access levels
