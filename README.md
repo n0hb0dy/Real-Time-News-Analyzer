@@ -27,9 +27,9 @@ git clone https://github.com/n0hb0dy/Realt-Time-News-Analyzer.git
 Tested for HortonWorks 2.6.5 VM with user maria_dev 
 
 > scp -P 2222 .\newp1_2.11-v1SNAP.jar maria_dev@sandbox-hdp.hortonworks.com:/home/maria_dev/hive/jar
-> > To copy to Linux VM
+> To copy to Linux VM
 > spark-submit ./hive/jar/newp1_2.11-v1SNAP.jar --class example.p1
-> > To run the program
+> To run the program
 
 ## Usage
 
